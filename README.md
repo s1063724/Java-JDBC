@@ -3,6 +3,9 @@
 # 應用技術
 ### Java、SQL
 
+# 需求工具包
+### mysql-connector、protobuf、rs2xml
+
 # 資料庫建立
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/database.jpg" width="1000" height="600">
 
