@@ -1,5 +1,5 @@
 # Java-JDBC
-### 這是利用Java JDBC 製作的 商品資料庫連結
+### 這是利用Java JDBC連結MySQL資料庫，並對資料做CRUD等操作
 # 應用技術
 ### Java、SQL
 
