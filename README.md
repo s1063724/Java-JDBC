@@ -7,7 +7,7 @@
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/database.jpg" width="1000" height="600">
 
 # 視窗設置
-
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/JFrame.jpg" width="1000" height="600">
 # 資料庫CRUD
 ## 增
 > ProductDaoImpl.java 
@@ -54,7 +54,9 @@ btn_add.addActionListener(new ActionListener() {
 btn_add.setBounds(53, 85, 85, 23);
 contentPane.add(btn_add);
 ```
-
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/add%20(1).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/add%20(2).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/add%20(3).jpg" width="1000" height="600">
 ## 刪
 > ProductDaoImpl.java
 ```Java
@@ -87,7 +89,9 @@ btn_delete.addActionListener(new ActionListener() {
 btn_delete.setBounds(362, 85, 85, 23);
 contentPane.add(btn_delete);
 ```
-
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/delete%20(1).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/delete%20(2).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/delete%20(3).jpg" width="1000" height="600">
 ## 改
 > ProductDaoImpl.java
 ```Java
@@ -130,7 +134,9 @@ btn_update.addActionListener(new ActionListener() {
 btn_update.setBounds(206, 85, 85, 23);
 contentPane.add(btn_update);
 ```
-
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/update%20(1).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/update%20(2).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/update%20(3).jpg" width="1000" height="600">
 ## 查
 > ProductDaoImpl.java
 ```Java
@@ -171,3 +177,5 @@ btn_search.addActionListener(new ActionListener() {
 btn_search.setBounds(681, 85, 85, 23);
 contentPane.add(btn_search);
 ```
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/search%20(1).jpg" width="1000" height="600">
+<img src="https://github.com/s1063724/Java-JDBC/blob/main/image/search%20(2).jpg" width="1000" height="600">
