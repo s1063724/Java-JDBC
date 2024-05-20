@@ -59,7 +59,9 @@ contentPane.add(btn_add);
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/add%20(1).jpg" width="1000" height="600">
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/add%20(2).jpg" width="1000" height="600">
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/add%20(3).jpg" width="1000" height="600">
+
 ## 刪
+
 > ProductDaoImpl.java
 ```Java
 public void delete(int id) {
@@ -94,7 +96,9 @@ contentPane.add(btn_delete);
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/delete%20(1).jpg" width="1000" height="600">
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/delete%20(2).jpg" width="1000" height="600">
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/delete%20(3).jpg" width="1000" height="600">
+
 ## 改
+
 > ProductDaoImpl.java
 ```Java
 public void update(Product p) {
@@ -139,7 +143,9 @@ contentPane.add(btn_update);
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/update%20(1).jpg" width="1000" height="600">
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/update%20(2).jpg" width="1000" height="600">
 <img src="https://github.com/s1063724/Java-JDBC/blob/main/image/update%20(3).jpg" width="1000" height="600">
+
 ## 查
+
 > ProductDaoImpl.java
 ```Java
 public ResultSet Search(Product p) {
