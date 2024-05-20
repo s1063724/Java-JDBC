@@ -10,7 +10,7 @@
 
 # 資料庫CRUD
 ## 增
-'''Java
+```Java=
 public void add(Product p) {
 		// TODO Auto-generated method stub
 		Connection conn=DBUtils.getDB().getConn();
@@ -26,4 +26,4 @@ public void add(Product p) {
 			e.printStackTrace();
 		}
 	}
-'''
+```
