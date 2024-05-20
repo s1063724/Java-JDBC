@@ -10,20 +10,22 @@
 
 # 資料庫CRUD
 ## 增
+* ProductDaoImpl
 ```Java=
 public void add(Product p) {
-		// TODO Auto-generated method stub
-		Connection conn=DBUtils.getDB().getConn();
-		String addSQL="insert into product(name,price,intro)values(?,?,?)";
-		try {
-			PreparedStatement ps=conn.prepareStatement(addSQL);
-			ps.setString(1, p.getName());
-			ps.setInt(2, p.getPrice());
-			ps.setString(3, p.getIntro());
-			ps.execute();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	// TODO Auto-generated method stub
+	Connection conn=DBUtils.getDB().getConn();
+	String addSQL="insert into product(name,price,intro)values(?,?,?)";
+	try {
+		PreparedStatement ps=conn.prepareStatement(addSQL);
+		ps.setString(1, p.getName());
+		ps.setInt(2, p.getPrice());
+		ps.setString(3, p.getIntro());
+		ps.execute();
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
 	}
+}
 ```
+
