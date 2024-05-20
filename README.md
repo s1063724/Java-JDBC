@@ -10,7 +10,7 @@
 
 # 資料庫CRUD
 ## 增
-* ProductDaoImpl
+== ProductDaoImpl ==
 ```Java=
 public void add(Product p) {
 	// TODO Auto-generated method stub
